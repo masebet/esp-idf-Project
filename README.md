@@ -1,17 +1,17 @@
 # esp-idf-Project
-dwonload eim
-dwonload yang cli windows
-https://dl.espressif.com/dl/eim/
+<br>dwonload eim</br>
+<br>dwonload yang cli windows</br>
+<br>https://dl.espressif.com/dl/eim/</br>
 
-masuk ke cmd masukan perintah
-install esp-idf melalui eim
-eim[namanya-harus-lengkap] install
+<br>masuk ke cmd masukan perintah</br>
+<br>install esp-idf melalui eim</br>
+<br>eim[namanya-harus-lengkap] install</br>
 
 
-idf.py menuconfig (opsional)
+<br>idf.py menuconfig (opsional)</br>
 
-ambil program dari example
-idf tools command in project directory
+<br>ambil program dari example</br>
+<br>idf tools command in project directory</br>
 
 <br>idf.py create-project baru</br>
 <br>idf.py set-target esp32</br>
