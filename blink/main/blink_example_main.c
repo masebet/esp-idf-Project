@@ -32,19 +32,19 @@ void app_main(void)
     };
 
      union OneByteUnion d;
-     d.all_bits = 0xff;
-     d.bits.bit1 = 0;
 
     while (1) {
-        gpio_set_level(25, 1);
-        gpio_set_level(26, 1);
-        gpio_set_level(27, 1);
+        d.all_bits = 0xff;
+        gpio_set_level(25, d.bits.bit1);
+        gpio_set_level(26, d.bits.bit2);
+        gpio_set_level(27, d.bits.bit3);
         printf("LED ON\n");
         vTaskDelay(1000 / portTICK_PERIOD_MS);
 
-        gpio_set_level(25, 0);
-        gpio_set_level(26, 0);
-        gpio_set_level(27, 0);
+        d.all_bits = 0x11;
+        gpio_set_level(25, d.bits.bit1);
+        gpio_set_level(26, d.bits.bit2);
+        gpio_set_level(27, d.bits.bit3);
         printf("LED OFF\n");
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
