@@ -13,7 +13,7 @@ idf.py menuconfig (opsional)
 ambil program dari example
 idf tools command in project directory
 
-idf.py create-project baru
-idf.py set-target esp32
-idf.py build
-idf.py -p COM3 flash
+<br>idf.py create-project baru</br>
+<br>idf.py set-target esp32</br>
+<br>idf.py build</br>
+<br>idf.py -p COM3 flash</br>
