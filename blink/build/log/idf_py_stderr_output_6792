@@ -1,0 +1,6 @@
+Command: cmake -G Ninja -B C:\Users\SMKBINAMANDIRI_8\Desktop\blink\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v6.1\venv\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=True C:\Users\SMKBINAMANDIRI_8\Desktop\blink
+Loading defaults file C:/Users/SMKBINAMANDIRI_8/Desktop/blink/sdkconfig.defaults...
+Loading defaults file C:/Users/SMKBINAMANDIRI_8/Desktop/blink/sdkconfig.defaults.esp32...
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished successfully

@@ -1,0 +1,2 @@
+Command: ninja flash
+WARNING: Detected crystal freq 41.01 MHz is quite different to normalized freq 40 MHz. Unsupported crystal in use?
